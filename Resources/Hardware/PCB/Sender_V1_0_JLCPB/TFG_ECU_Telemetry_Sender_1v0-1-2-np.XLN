@@ -1,0 +1,23 @@
+M48
+METRIC,LZ
+T01C1.24
+T02C1.
+T03C.85
+T04C.83
+T05C.7
+T06C.4
+T07C3.25
+;LEADER: 12 
+;HEADER: PCB_Sender 
+;CODE  : ASCII 
+;FILE  : TFG_ECU_Telemetry_Sender_1v0-1-2-np.drl for  ... layers TOP and BOTTOM
+;DESIGN: TFG_ECU_Telemetry_Sender_1v0.brd
+;T07 Holesize 1. = 3.250000 Tolerance = +0.000000/-0.000000 NON_PLATED MM Quantity = 4
+%
+G90
+T07
+X0472Y0699
+X-0632Y0699
+X0472Y-0757
+X-0632Y-0757
+M30
