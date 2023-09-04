@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/TFG/SOFTWARE/Deliverables/ECU_Receiver_V1.00/ECU_Receiver_V1.00",
+      "program": "e:/TFG/SOFTWARE/Deliverables/ECU_Receiver_V1.00/ECU_Receiver_V1.00/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Users/gerar/AppData/Local/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gdb/gcc8_4_0-esp-2021r2-patch3/bin/xtensa-esp32-elf-g++",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0"
+}
